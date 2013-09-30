@@ -803,6 +803,7 @@
 					"${SDKROOT}/usr/include/libxml2/**",
 				);
 				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/usr/lib/system\"",
@@ -810,6 +811,7 @@
 					"\"$(SRCROOT)/OtherSources/lib\"",
 				);
 				PRODUCT_NAME = DocSets;
+				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = armv7;
 			};
 			name = Debug;
@@ -829,6 +831,7 @@
 					"${SDKROOT}/usr/include/libxml2/**",
 				);
 				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SDKROOT)/usr/lib/system\"",
@@ -836,6 +839,7 @@
 					"\"$(SRCROOT)/OtherSources/lib\"",
 				);
 				PRODUCT_NAME = DocSets;
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = armv7;
 			};
